@@ -1,0 +1,23 @@
+#header {
+    height: 49px;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#header > p {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+
+#actions {
+    margin-left: auto;
+}
+
+#actions > button {
+    margin-left: 5px;
+    margin-right: 5px;;
+}

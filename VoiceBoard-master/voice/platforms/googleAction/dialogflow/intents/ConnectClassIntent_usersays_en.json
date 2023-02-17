@@ -1,0 +1,54 @@
+[
+	{
+		"data": [
+			{
+				"text": "connect class ",
+				"userDefined": false
+			},
+			{
+				"text": "name1",
+				"userDefined": true,
+				"alias": "name1",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " and ",
+				"userDefined": false
+			},
+			{
+				"text": "name2",
+				"userDefined": true,
+				"alias": "name2",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "connect ",
+				"userDefined": false
+			},
+			{
+				"text": "name1",
+				"userDefined": true,
+				"alias": "name1",
+				"meta": "@sys.any"
+			},
+			{
+				"text": " and ",
+				"userDefined": false
+			},
+			{
+				"text": "name2",
+				"userDefined": true,
+				"alias": "name2",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

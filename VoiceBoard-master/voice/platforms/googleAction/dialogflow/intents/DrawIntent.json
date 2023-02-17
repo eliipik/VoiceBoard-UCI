@@ -1,0 +1,17 @@
+{
+	"name": "DrawIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "name",
+					"value": "$name",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}

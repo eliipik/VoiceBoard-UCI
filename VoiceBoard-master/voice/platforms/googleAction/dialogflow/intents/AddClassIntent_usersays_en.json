@@ -1,0 +1,18 @@
+[
+	{
+		"data": [
+			{
+				"text": "a class named ",
+				"userDefined": false
+			},
+			{
+				"text": "name",
+				"userDefined": true,
+				"alias": "name",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

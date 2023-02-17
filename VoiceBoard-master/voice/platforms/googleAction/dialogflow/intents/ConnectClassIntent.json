@@ -1,0 +1,23 @@
+{
+	"name": "ConnectClassIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "name1",
+					"value": "$name1",
+					"dataType": "@sys.any"
+				},
+				{
+					"isList": false,
+					"name": "name2",
+					"value": "$name2",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}
