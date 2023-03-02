@@ -1,0 +1,50 @@
+[
+	{
+		"data": [
+			{
+				"text": "select ",
+				"userDefined": false
+			},
+			{
+				"text": "name",
+				"userDefined": true,
+				"alias": "name",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "give me ",
+				"userDefined": false
+			},
+			{
+				"text": "name",
+				"userDefined": true,
+				"alias": "name",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "get me ",
+				"userDefined": false
+			},
+			{
+				"text": "name",
+				"userDefined": true,
+				"alias": "name",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

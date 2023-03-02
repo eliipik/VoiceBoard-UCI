@@ -1,0 +1,31 @@
+version: '3'
+services: 
+  server:
+    container_name: fabric-server
+    build: 
+      context: ./server
+    networks: 
+      - fabric
+    volumes: 
+      - ./server:/app
+
+  client:
+    container_name: fabric-client
+    build:
+      context: ./client
+    networks: 
+      - fabric
+    volumes:
+      - ./client:/app
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    networks: 
+      - fabric
+
+networks:
+  fabric:
+    driver: bridge

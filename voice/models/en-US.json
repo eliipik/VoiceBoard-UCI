@@ -1,0 +1,180 @@
+{
+	"invocation": "my test app",
+	"intents": [
+		{
+			"name": "HelloWorldIntent",
+			"phrases": [
+				"hello",
+				"hi"
+			]
+		},
+		{
+			"name": "SetToolIntent",
+			"phrases": [
+				"select {name}",
+				"give me {name}",
+				"get me {name}"
+			],
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "RemoveToolIntent",
+			"phrases": [
+				"deselect"
+			]
+		},
+		{
+			"name": "UndoIntent",
+			"phrases": [
+				"undo",
+				"undo last action"
+			]
+		},
+		{
+			"name": "RedoIntent",
+			"phrases": [
+				"redo",
+				"cancel undo"
+			]
+		},
+		{
+			"name": "ClearIntent",
+			"phrases": [
+				"clear",
+				"clear board"
+			]
+		},
+		{
+			"name": "DrawIntent",
+			"phrases": [
+				"draw a {name}"
+			],
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "InitClassIntent",
+			"phrases": [
+				"give me some classes",
+				"add some classes"
+			]
+		},
+		{
+			"name": "AddClassIntent",
+			"phrases": [
+				"a class named {name}"
+			],
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "EndClassIntent",
+			"phrases": [
+				"that was everything",
+				"that's everything",
+				"that's it"
+			]
+		},
+		{
+			"name": "AddTextIntent",
+			"phrases": [
+				"add text {name}",
+				"draw text {name}"
+			], 
+			"inputs": [
+				{
+					"name": "name",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		},
+		{
+			"name": "ConnectClassIntent",
+			"phrases": [
+				"connect class {name1} and {name2}",
+				"connect {name1} and {name2}"
+			], 
+			"inputs": [
+				{
+					"name": "name1",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				},
+								{
+					"name": "name2",
+					"type": {
+						"alexa": "AMAZON.any",
+						"dialogflow": "@sys.any"
+					}
+				}
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

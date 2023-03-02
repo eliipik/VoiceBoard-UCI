@@ -1,0 +1,18 @@
+[
+	{
+		"data": [
+			{
+				"text": "draw a ",
+				"userDefined": false
+			},
+			{
+				"text": "name",
+				"userDefined": true,
+				"alias": "name",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
